@@ -263,6 +263,9 @@ margin-left:90px;
 min-height:76.64%;
 background-color:rgba(5,26,45,.5); 
 margin-bottom:80px;
+padding:40px 190px 40px 60px;
+font-size:1.25em;
+font-family:"Times New Roman", Times, serif;
 }
 
 #sponsors_slideshow{
@@ -274,6 +277,7 @@ height:100%;
 
 background-color:rgba(5,26,45,.5);
 }
+
 @media only screen and (min-height:760px){
 #main_content{
 -moz-transition:all 1.5s;
