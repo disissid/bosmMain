@@ -8,3 +8,24 @@ display:none;
     text-align: center;
     
 }
+
+#main_events {
+	display:none;
+	height:600px;
+	overflow-y:scroll;
+}
+#events1 {
+	position:relative;
+	width:100%;
+	height:555px;
+	margin:20px;
+	z-index:100;
+}
+#events2 {
+	position:relative;
+	top:30px;
+	width:100%;
+	left:2.5%;
+	height:555px;
+	z-index:100;
+}

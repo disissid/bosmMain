@@ -36,7 +36,9 @@
 
 		<link rel="stylesheet" type="text/css" href="fonts/font_bebas_neue.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css" />  
-	   <link rel="stylesheet" type="text/css" href="css/style.css" />  
+	   <link rel="stylesheet" type="text/css" href="css/style.css" /> 
+       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
+       <script type="text/javascript" src="js/jquery.kwicks.min.js"></script>
 		<script src="js/script.js" type="text/javascript"></script>
    
 
@@ -72,7 +74,8 @@
    <div id="tabs_div">
    
 		<div id="blogs" class="tabs"><span class="vertical">BLOGS</span></div>
-		<div id="events" class="tabs"><span class="vertical">EVENTS</span></div>
+		<div id="events" class="tabs"><span class="vertical">EVENTS</span>
+       </div>
 		<div id="junoon" class="tabs"><span class="vertical">JUNOON</span></div>
 		<div id="home" class="tabs"><span class="vertical">HOME</span></div>
 		<div id="gallery" class="tabs"><span class="vertical">GALLERY</span></div>
@@ -87,7 +90,116 @@
    
    <div id="main_content" >
    <div id="main_blogs" class="main"></div>
-   <div id="main_events" class="main"></div>
+   <div id="main_events" class="main"> <div id="events1">
+<ul class='kwicks kwicks-vertical'>
+ <li>
+ <ul class='kwicks kwicks-horizontal'>
+<li id="cric">
+    <img class="evimg" src="images/cricket.png" />
+    <span class="desc">CRICKET</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li>
+<li id="chess">
+    <img class="evimg" src="images/athletics.png" />
+    <span class="desc">CHESS</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li>
+<li id="badmin">
+    <img class="evimg" src="images/basketball.png" />
+    <span class="desc">BADMINTON</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li></ul></li>
+<li>
+
+<ul class='kwicks kwicks-horizontal'>
+<li id="basket">
+    <img class="evimg" src="images/basketball.png" />
+    <span class="desc">BASKETBALL</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li>
+<li id="bodybuild">
+    <img class="evimg" src="images/carrom.png" />
+    <span class="desc">BODYBUILDING</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li>
+<li id="carrom">
+    <img class="evimg" src="images/carrom.png" />
+    <span class="desc">CARROM</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li></ul></li>
+<li>
+<ul class='kwicks kwicks-horizontal'>
+<li id="hockey">
+    <img class="evimg" src="images/cricket.png" />
+    <span class="desc">HOCKEY</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li>
+<li id="online">
+    <img class="evimg" src="images/chess.png" />
+    <span class="desc">ONLINE</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li>
+<li id="tabletennis">
+    <img class="evimg" src="images/athletics.png" />
+    <span class="desc">TABLETENNIS</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li></ul></li>
+</ul></div>
+<div id="events2">
+<ul class='kwicks kwicks-vertical'>
+   <li>
+<ul class='kwicks kwicks-horizontal'>
+<li id="squash">
+    <img class="evimg" src="images/football.png" />
+    <span class="desc">SQUASH</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li>
+<li id="football">
+    <img class="evimg" src="images/football.png" />
+    <span class="desc">FOOTBALL</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li>
+<li id="athlete">
+    <img class="evimg" src="images/athletics.png" />
+    <span class="desc">ATHLETICS</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li></ul></li>
+   <li>
+<ul class='kwicks kwicks-horizontal'>
+<li id="squash">
+    <img class="evimg" src="images/football.png" />
+    <span class="desc">SQUASH</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li>
+<li id="football">
+    <img class="evimg" src="images/football.png" />
+    <span class="desc">FOOTBALL</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li>
+<li id="athlete">
+    <img class="evimg" src="images/athletics.png" />
+    <span class="desc">ATHLETICS</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li></ul></li>
+   <li>
+<ul class='kwicks kwicks-horizontal'>
+<li id="squash">
+    <img class="evimg" src="images/football.png" />
+    <span class="desc">SQUASH</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li>
+<li id="football">
+    <img class="evimg" src="images/football.png" />
+    <span class="desc">FOOTBALL</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li>
+<li id="athlete">
+    <img class="evimg" src="images/athletics.png" />
+    <span class="desc">ATHLETICS</span>
+    <span class="readmore">READ MORE</span>
+    <div class="gradient"></div></li></ul></li>
+</ul>
+</div></div>
    <div id="main_junoon" class="main">
 		 <br>
                             <h1>“A World of Million different Abilities”</h1>
@@ -132,7 +244,35 @@
    </div>
    
    
-   
+
+ <script type='text/javascript'>
+            $(function() {
+                $('.kwicks-vertical').kwicks({
+                    maxSize : 285,
+                    isVertical: true,
+                    behavior: 'menu',
+                    selectOnClick: false
+                });
+
+                $('.kwicks-horizontal').kwicks({
+                    maxSize: 365,
+                    behavior: 'menu',
+                    selectOnClick: false
+                });
+            });
+			$('li').hover(function() {
+				$(this).children().addClass('active');
+				$('div.active').addClass('upward');
+				$('.desc.active').addClass('actdesc');
+				$('.active.readmore').addClass('actreadmore');
+			}, function() {
+				$(this).children().removeClass('active');
+				$('.upward').removeClass('upward');
+				$('.actdesc').removeClass('actdesc');
+				$('.actreadmore').removeClass('actreadmore');
+			});
+			
+        </script>   
    
 
    
