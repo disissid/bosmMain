@@ -1,3 +1,4 @@
+
 *{
 padding:0px;
 margin:0px;
@@ -131,18 +132,24 @@ left:0px;
 -moz-transition:all 1.5s;
 -webkit-transition:all 1.5s;
 }
-
 .vertical{
 position:relative;
 top:15px;}
 
 #contacts{
-position:absolute;
+position:relative;
 top:7px;
 left:900px;
 -moz-transition:all 1.5s,border-width .2s;
 -webkit-transition:all 1.5s,border-width .2s;
 }
+
+.nav_img{
+position:absolute;
+top:2px;
+}
+
+
 
 
 #home{
